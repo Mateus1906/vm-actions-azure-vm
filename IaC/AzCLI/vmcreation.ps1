@@ -3,7 +3,7 @@
 [CmdletBinding()]
 param(
     [Parameter(Mandatory = $True)]
-    [System.String]
+    [String]
     $servicePrincipal,
 
     [Parameter(Mandatory = $True)]
